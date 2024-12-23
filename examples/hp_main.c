@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
@@ -41,7 +41,7 @@ int main() {
 
   HP_CloseFile(file_desc,hp_info2);
   BF_Close();
-}
+}*/
 
 
 
@@ -49,7 +49,7 @@ int main() {
 
 
 
-/*#include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <stdbool.h> // For true and false
@@ -143,4 +143,4 @@ void printEntries(int file_desc, HP_info *hp_info, int entryNumber,Record sample
     printf("Searching: *%d*\n", searchedRec.id);
     HP_GetAllEntries(file_desc, hp_info, searchedRec.id);
   }
-}*/
+}
